@@ -2,7 +2,7 @@
   "name": "react-toolbox",
   "description": "A set of React components implementing Google's Material Design specification with the power of CSS Modules.",
   "homepage": "http://www.react-toolbox.com",
-  "version": "2.0.0-beta.8",
+  "version": "2.0.0-beta.1008",
   "main": "./lib",
   "author": {
     "email": "javier.velasco86@gmail.com",
@@ -134,10 +134,10 @@
   },
   "peerDependencies": {
     "classnames": "^2.2.0",
-    "prop-types": "^15.5.7",
-    "react": "^0.14 || ~15.4.0",
-    "react-addons-css-transition-group": "^0.14.0 || ~15.4.0",
-    "react-dom": "^0.14.0 || ~15.4.0"
+    "prop-types": "^15",
+    "react": "^0.14 || ^15",
+    "react-addons-css-transition-group": "^0.14.0 || ^15",
+    "react-dom": "^0.14.0 || ^15"
   },
   "pre-commit": "lint:staged"
 }
